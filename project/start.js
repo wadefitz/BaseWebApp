@@ -18,6 +18,18 @@ app.get('/about', function(request, response) {
 app.get('/projects', function(request, response) {
   response.render('pages/projects');
 });
+app.get('/projects/graphics', function(request, response) {
+  response.render('pages/projects/graphics');
+});
+app.get('/projects/modules', function(request, response) {
+  response.render('pages/projects/modules');
+});
+app.get('/projects/templates', function(request, response) {
+  response.render('pages/projects/templates');
+});
+app.get('/projects/stockphotos', function(request, response) {
+  response.render('pages/projects/stockphotos');
+});
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
