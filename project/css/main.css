@@ -32,3 +32,4 @@ button {
   height: 200px;
   margin-top: 60px;
 }
+.navbar { background: #ccc; width: 100%; height: auto; }
